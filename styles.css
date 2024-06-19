@@ -42,23 +42,23 @@ body{
   color: white;
 }
 .hero-content h1{
-  font-size: 48px;
+  font-size: 65px;
   margin: 0;
-  color: crimson;
+  color:aqua;
 }
-.hero-content p{
-  font-size: 50px;
+.hero-content > p{
+  font-size: 40px;
   margin:16px 0;
-  color: rgb(112, 131, 216)
-  ;
+  color:rgb(187, 29, 182);
 }
+  
 .hero-content button{
   margin: 8px;
   padding: 12px;
   font-size: 16px;
   border: none;
   color: #ffffff;
-  background-color: purple;
+  background-color: rgb(26, 128, 0);
   cursor:pointer;
 }
 .hero-content button:hover{
