@@ -16,7 +16,7 @@ body{
   color:pink
 }
 .navlinks a{
-  color: white;
+  color:purple;
   text-decoration: none;
   margin: 16px;
 }
@@ -26,6 +26,16 @@ body{
     height: 8 0vh;
     overflow: hidden;
     position: relative;
+  }
+
+  .hero p {
+    font-size: 200%;
+    color: blue;
+  }
+
+  .hero button{
+    font-size: 100%;
+    color: rgba(132, 13, 244, 0.865);
   }
   .hero img{
     width: 100%;
@@ -40,10 +50,32 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    color: white;
+    color: purple;
   }
   .hero-content h1{
     font-size: 48px;
     margin: 0;
-    color: crimson;
+    color: rgb(20, 220, 20);
   }
+
+
+  .mission{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-top: 4rem;
+}
+.reject
+{
+    background-color:purple;
+    width: 25%;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+.reject > img{
+  width: 40%;
+  height: auto;
+}
