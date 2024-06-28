@@ -79,3 +79,16 @@ body{
   width: 40%;
   height: auto;
 }
+.oteyo > h1{
+   margin: auto;
+   width: 30%;
+   border: 3px;
+   padding: 10px;
+}
+.von{
+  margin: auto;
+  width: 30%;
+  border: 3px;
+  padding: 20px;
+
+}
